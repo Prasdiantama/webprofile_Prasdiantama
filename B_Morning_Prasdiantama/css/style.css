@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.medsos{
+    padding:5px 0;
+    background-color: gray;
+}
+
+.medsos ul li{
+    display: inline-block;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin:0 auto;
+}
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+header h1 {
+    float: left;
+    padding: 15px 0;
+    color: gray;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding:25px 20px ;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.active {
+    background-color: gray;
+    color: white;
+}
+
+.banner {
+    height: 69.1vh;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.banner h2 {
+    color: #fff;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.profile{
+    height: 200px;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile p {
+    text-align: center;
+    color: white;
+}
+
+.info p {
+    color: gray;
+    text-align: center;
+    font-size: large;
+}
